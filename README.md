@@ -142,7 +142,7 @@ This tool downloads and silently runs installers when prerequisites are missing.
 
 
 
-Where available, it tries `winget` first and only falls back to direct download if `winget` isn't present or doesn't work. As with any script that installs system components, read through `PsToExeGui.ps1` before running it on a machine you care about.
+Where available, it tries `winget` first and only falls back to direct download if `winget` isn't present or doesn't work. As with any script that installs system components, read through `ps_to_exe_gui.ps1` before running it on a machine you care about.
 
 
 

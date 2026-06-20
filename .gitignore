@@ -1,0 +1,26 @@
+# Rust build artifacts (in case a local test Cargo project ever lives in-repo;
+# the app itself always builds in a temp folder outside the repo)
+/target/
+**/target/
+Cargo.lock
+*.pdb
+*.rlib
+
+# Build output you might generate while testing locally
+/dist/
+/output/
+*.exe
+!docs/**/*.exe
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log

@@ -75,8 +75,8 @@ You do \*\*not\*\* need to install Rust or Visual Studio Build Tools yourself â€
 ```powershell
 
 git clone https://github.com/zimzimax/powershell_to_exe_gui.git
-
-powershell -ExecutionPolicy Bypass -File .\\ps_to_exe_gui.ps1
+cd .\powershell_to_exe_gui\
+powershell -ExecutionPolicy Bypass -File .\ps_to_exe_gui.ps1
 
 ```
 

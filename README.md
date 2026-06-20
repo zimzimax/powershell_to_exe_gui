@@ -5,10 +5,10 @@
 A modern WPF GUI that converts any PowerShell `.ps1` script into a standalone, natively-compiled Windows executable — no manual Rust/Cargo wrangling, and no separate dependency-install step. Created by Nazim Hassani.
 
 
+<img width="705" height="553" alt="image" src="https://github.com/zimzimax/powershell_to_exe_gui/blob/main/docs/screenshot-setup.png" />
+<img width="964" height="631" alt="image" src="https://github.com/zimzimax/powershell_to_exe_gui/blob/main/docs/screenshot-builder.png" />
 
-!\[image](docs/screenshot-builder.png)
 
-!\[image](docs/screenshot-setup.png)
 
 
 
@@ -78,7 +78,7 @@ git clone https://github.com/zimzimax/powershell\_to\_exe\_gui.git
 
 cd powershell\_to\_exe\_gui
 
-powershell -ExecutionPolicy Bypass -File .\\PsToExeGui.ps1
+powershell -ExecutionPolicy Bypass -File .\\ps_to_exe_gui.ps1
 
 ```
 
@@ -160,13 +160,9 @@ Where available, it tries `winget` first and only falls back to direct download 
 
 
 
-\## License
+## License
 
-
-
-MIT — see \[LICENSE](LICENSE).
-
-
+MIT — see [LICENSE](LICENSE).
 
 \## Author
 

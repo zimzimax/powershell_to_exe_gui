@@ -74,7 +74,7 @@ You do \*\*not\*\* need to install Rust or Visual Studio Build Tools yourself â€
 
 ```powershell
 
-git clone https://github.com/zimzimax/powershell\_to\_exe\_gui.git
+git clone https://github.com/zimzimax/powershell_to_exe_gui.git
 
 cd powershell\_to\_exe\_gui
 
